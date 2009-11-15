@@ -189,7 +189,7 @@ class IDXFilter_In(IDXFilter):
     @license    GNU General Public License
     """
     field = ''
-    value = 0
+    value = []
     def __init__(self, field, value):
         self.field = field
         self.value = value
